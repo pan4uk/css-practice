@@ -1,0 +1,155 @@
+:root {
+    background-color: white;
+}
+
+* {
+    color: black;
+}
+
+h1 {
+    background: blue;
+}
+
+.green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+.box div {
+    background-color: green;
+}
+
+.box p {
+    background-color: red;
+}
+
+.brown {
+    background-color: brown;
+    color: white;
+}
+
+ul > li {
+    background-color: red;
+}
+
+.header-button + span {
+    background-color: red;
+  }
+
+.susid ~ p {
+    background-color: blue;
+    color: white;
+}
+
+.salo {
+    background-color: yellow;
+}
+
+#bread {
+    background-color: yellow;
+}
+
+.first-task li:first-child {
+    color: white;
+}
+
+.second-task ul:first-child li {
+    color: yellow;
+  }
+
+.third-task ul:last-child li:first-child {
+    background-color: yellow;
+}
+
+.four-task ul li:last-child {
+    background-color: yellow;
+}
+
+.five-task ul:last-child li:last-child {
+    color: white;
+}
+
+.only-child-task div:only-child {
+    color: red;
+}
+
+.seven-task p:first-of-type {
+    background-color: red;
+}
+
+.eight-task p:last-of-type {
+    background-color: red;
+}
+
+.nine-task p:only-of-type {
+    background-color: yellow;
+}
+
+a[href] {
+    color: white;
+}
+
+.lesson-three-task-two li[value] {
+    color: yellow;
+}
+
+.lesson-three-task-three li[value="3"] {
+    background-color: red;
+}
+
+.lesson-three-task-four button[class="primary action"] {
+    background-color: blue;
+}
+
+.lesson-three-task-five button[class|="secondary"] {
+    background-color: red;
+}
+
+.lesson-three-task-six li[class^="b"] {
+    background-color: green;
+    color: white;
+}
+
+.lesson-three-task-seven li[class*="on"] {
+    background-color: white;
+    color: green;
+}
+
+.lesson-three-task-eight li {
+    background-color: white;
+}
+
+.lesson-three-task-eight span[class$="s"] {
+    background-color: red;
+}
+
+.lesson-three-task-nine h2::first-letter {
+    color: red;
+}
+
+.lesson-three-task-ten p::first-line {
+    background-color: yellow;
+}
+
+input::placeholder {
+    background: red;
+}
+
+.lesson-three-task-twelve li {
+    background-color: white;
+}
+
+.lesson-three-task-twelve li::before {
+    content: ">";
+}
+
+.lesson-three-task-thirteen li {
+    background-color: white;
+}
+
+.lesson-three-task-thirteen li::after {
+    content: ">";
+}
